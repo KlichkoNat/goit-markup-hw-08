@@ -21,6 +21,16 @@
         <div class="header-title">
           <nav class="header">
             <a class="logos" href="/"> <span class="logo">Web</span> Studio</a>
+            info@defstudio.com</a>
+            <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+              <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                <use class="icon-menu" href="./images/nav.svg#icon-px"></use>
+                <use class="icon-cross" href="./images/nav.svg#icon-px1"></use>
+              </svg>
+            </button>
+            <div class="menu-container" id="menu-container" data-menu>
+              Меню
+            </div>
             <ul class="social-links">
               <li class="link-title">
                 <a href="./index.html" class="link">Студия</a>
@@ -105,9 +115,8 @@
                           </li>
                         </ul>
                         <input type="checkbox" name="policy" id="policy" class="topic" />
-                        <label for="policy">Соглашаюсь с рассылкой и принимаю
-                          <a href="" class="form-link">Условия договора</a>
-                        </label>
+                        <label for="policy" class="policy">Соглашаюсь с рассылкой и принимаю
+                          <a href="" class="form-link">Условия договора</a></label>
                         <button type="submit" class="submit">Отправить</button>
                       </form>
                     </div>
@@ -115,7 +124,7 @@
                 </div>
               </section>
             <section>
-        <div class="container-box">
+        <div class="container-xbox">
         <h2 class="none">Преимущества нашей студии</h2>
         <ul class="box">
           <li class="box-title">
@@ -172,7 +181,7 @@
         </div>
       </section>
       <section>
-        <div class="container-box">
+        <div class="container-ybox">
         <h2 class="heading">Чем мы занимаемся</h2>
         <ul class="items-title">
           <li class="heading-title">
@@ -196,8 +205,8 @@
         <h2 class="heading">Наша команда</h2>
         <ul class="meta">
           <li class="holder">
-            <img src="./images/jhon1.jpg" alt="Фото John Smith" width="270" class="photo"/>
-            <h3 class="name">John Smith</h3>
+            <img src="./images/1.jpg" alt="Фото John Smith" class="photo"/>
+            <h3 class="name">Николай Кучеренко</h3>
             <p class="desc">Product Designer</p>
             <ul class="socials">
               <li>
@@ -240,11 +249,11 @@
           </li>
           <li class="holder">
             <img
-              src="./images/marta1.jpg"
+              src="./images/2.jpg"
               alt="Фото Marta Stewart"
-              width="270" class="photo"
+              class="photo"
             />
-            <h3 class="name">Marta Stewart</h3>
+            <h3 class="name">Ольга Иванова</h3>
             <p class="desc">Frontend Developer</p>
             <ul class="socials">
               <li>
@@ -287,11 +296,11 @@
           </li>
           <li class="holder">
             <img
-              src="./images/robert1.jpg"
+              src="./images/3.jpg"
               alt="Фото Robert Jakis"
-              width="270" class="photo"
+              class="photo"
             />
-            <h3 class="name">Robert Jakis</h3>
+            <h3 class="name">Андрей Шевченко</h3>
             <p class="desc">Marketing</p>
             <ul class="socials">
               <li>
@@ -334,12 +343,11 @@
           </li>
           <li class="holder">
             <img
-              src="./images/martin1.jpg"
+              src="./images/4.jpg"
               alt="Фото Martin Doe"
-              width="270"
-              height="260" class="photo"
+              class="photo"
             />
-            <h3 class="name">Martin Doe</h3>
+            <h3 class="name">Иван Николаев</h3>
             <p class="desc">UI Designer</p>
             <ul class="socials">
               <li>
@@ -384,7 +392,7 @@
         </div>
       </section>
       <section>
-        <div class="container-box">
+        <div class="container-ibox">
         <h2 class="heading">Постоянные клиенты</h2>
         <ul class="list">
           <li class="list-title">
@@ -492,7 +500,7 @@
               </li>
           </ul>
         </div>
-        <div> 
+        <div class="server"> 
           <p class="list-items">Подпишитесь на рассылку</p>
            <form class="input-list"> 
             <label for="">
@@ -504,6 +512,7 @@
       </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -1,0 +1,156 @@
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  & a:focus {
+    color: #2196f3;
+  }
+}
+.link-title {
+  display: block;
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  &:last-child {
+    margin-right: 0;
+  }
+  & a {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 305px;
+  &:focus {
+    --color4: $bluecolor;
+  }
+}
+.contact-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  &:hover svg {
+    --color4: #2196f3;
+  }
+  & svg {
+    width: 16px;
+    height: 11.2px;
+    margin-right: 10px;
+  }
+}
+.contact-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover svg {
+    --color4: #2196f3;
+  }
+}
+.contacts-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 16px;
+  padding: 0;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &.phone:focus {
+    color: #2196f3;
+  }
+}
+.contact-tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 14.94px;
+  margin-right: 10px;
+}
+.phone {
+  color: #757575;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: #2196f3;
+  }
+  &:focus {
+    color: #2196f3;
+  }
+  &:focus svg {
+    --color4: #2196f3;
+  }
+}
+.phone-icone {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  &:hover {
+    color: #2196f3;
+  }
+  &:focus {
+    color: #2196f3;
+  }
+  &:focus svg {
+    --color4: #2196f3;
+  }
+}
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  & .icon-menu {
+    display: none;
+  }
+  &.is-open .icon-menu {
+    display: block;
+  }
+  &.is-open .icon-cross {
+    display: none;
+  }
+}
+.menu-container {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffffff;
+  &.is-open {
+    display: block;
+  }
+}
