@@ -1,0 +1,12 @@
+.container {
+  width: 1200px;
+  margin-left: $margin;
+  margin-right: $margin;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-title {
+  display: flex;
+  height: 80px;
+  align-items: $centring;
+}

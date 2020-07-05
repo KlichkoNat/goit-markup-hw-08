@@ -1,0 +1,55 @@
+.list {
+  display: flex;
+  &:focus a {
+    color: $bluecolor;
+    fill: $bluecolor;
+  }
+}
+.list-title {
+  margin-right: 30px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  fill: #afb1b8;
+  color: #afb1b8;
+  transition-property: border, fill, color;
+  transition-duration: 250ms, 250ms, 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    color: $bluecolor;
+    fill: $bluecolor;
+    @extend %bordersize;
+  }
+  &:focus {
+    color: $bluecolor;
+    fill: $bluecolor;
+    @extend %bordersize;
+  }
+  &:hover a {
+    color: $bluecolor;
+    fill: $bluecolor;
+    @extend %bordersize;
+  }
+}
+.list-t:focus {
+  color: $bluecolor;
+  fill: $bluecolor;
+  @extend %bordersize;
+}
+.list-l {
+  width: 170px;
+  height: 90px;
+}
+.list a {
+  color: #afb1b8;
+  display: block;
+  line-height: 0;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

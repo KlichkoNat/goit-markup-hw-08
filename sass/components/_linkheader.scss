@@ -1,0 +1,47 @@
+.link {
+  position: relative;
+  color: $bluecolor;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  &::after {
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: $bluecolor;
+    border-radius: 2px;
+  }
+}
+.social-links {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  & a:focus {
+    color: $bluecolor;
+  }
+}
+.link-title {
+  display: block;
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  &:last-child {
+    margin-right: 0;
+  }
+  & a {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

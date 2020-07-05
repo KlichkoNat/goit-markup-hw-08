@@ -1,0 +1,118 @@
+.container-footer {
+  align-items: center;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 48px;
+  padding-bottom: 21px;
+  background: #2f303a;
+}
+.footer {
+  display: flex;
+  background: #2f303a;
+}
+.avatar {
+  margin-right: 69px;
+  margin-left: 214px;
+}
+.logos-footer {
+  margin-bottom: 10px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: $backcolor;
+}
+.adress {
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.mobile-title {
+  margin-bottom: 9px;
+}
+.mobile {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.content {
+  margin-right: 94px;
+  & a {
+    display: block;
+    line-height: 0;
+  }
+}
+.list-items {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.content-title {
+  display: flex;
+}
+.input-list {
+  display: flex;
+  text-align: center;
+}
+.input {
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 12px;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-footer {
+  display: inline-block;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border-color: $bluecolor;
+  padding: 10px 29px;
+  background: $bluecolor;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  &::after {
+    display: inline-block;
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-image: url(../images/plane.svg);
+  }
+}
