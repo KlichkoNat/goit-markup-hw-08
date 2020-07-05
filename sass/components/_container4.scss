@@ -2,7 +2,7 @@
   @extend %cize;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #f5f4fa;
+
   @media screen and (min-width: 480px) {
     width: 480px;
   }
@@ -12,6 +12,9 @@
   @media screen and (min-width: 1140px) {
     width: 1140px;
   }
+}
+.y {
+  background-color: #f5f4fa;
 }
 .holder {
   background: #ffffff;
@@ -27,7 +30,7 @@
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
-  @media screen and (min-width: 1140px) {
+  @media screen and (min-width: 1200px) {
     width: 25%;
     flex-basis: calc((100% - 4 * 30px) / 4);
     margin: 15px;
