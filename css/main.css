@@ -881,6 +881,10 @@ textarea {
   padding-bottom: 24px;
 }
 
+.holder img {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .holder {
     width: 50%;
@@ -901,10 +905,6 @@ textarea {
 
 .photo {
   margin-bottom: 30px;
-}
-
-.photo img {
-  width: 100%;
 }
 
 .name {

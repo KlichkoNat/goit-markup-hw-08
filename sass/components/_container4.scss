@@ -25,6 +25,9 @@
   border-radius: 4px;
   margin-bottom: 30px;
   padding-bottom: 24px;
+  & img {
+    max-width: 100%;
+  }
   @media screen and (min-width: 768px) {
     width: 50%;
     flex-basis: calc((100% - 4 * 15px) / 2);
@@ -38,9 +41,6 @@
 }
 .photo {
   margin-bottom: 30px;
-  & img {
-    width: 100%;
-  }
 }
 .name {
   margin-bottom: 10px;
