@@ -121,10 +121,27 @@ body {
   position: relative;
 }
 
+.navigation,
+.nav-contacts {
+  height: 40px;
+}
+
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+
+.menu-container.is-open {
+  display: block;
+}
+
 .social-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -137,8 +154,6 @@ body {
 }
 
 .link-title {
-  display: block;
-  margin-right: 50px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -156,12 +171,8 @@ body {
 }
 
 .contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 305px;
 }
 
 .contacts:focus {
@@ -169,9 +180,6 @@ body {
 }
 
 .contact-mail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -188,9 +196,6 @@ body {
 }
 
 .contact-phone {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -204,12 +209,8 @@ body {
 }
 
 .contacts-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 16px;
   padding: 0;
-  margin-right: 30px;
 }
 
 .contacts-item:last-child {
@@ -221,9 +222,6 @@ body {
 }
 
 .contact-tel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -306,22 +304,6 @@ body {
 
 .menu-button.is-open .icon-cross {
   display: none;
-}
-
-.menu-container {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
-  background-color: #ffffff;
-}
-
-.menu-container.is-open {
-  display: block;
 }
 
 .logo {
