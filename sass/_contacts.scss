@@ -1,0 +1,76 @@
+.contacts {
+  margin-top: 0;
+  margin-bottom: 0;
+  --color2: #757575;
+  &:focus {
+    --color4: #2196f3;
+    --color2: #2196f3;
+  }
+}
+.contact-mail {
+  & svg {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+  }
+  &:hover svg {
+    --color2: #2196f3;
+  }
+}
+
+.contact-phone {
+  & svg {
+    width: 10px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  &:hover svg {
+    --color4: #2196f3;
+  }
+}
+.phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  & svg {
+    color: #757575;
+  }
+  &:hover {
+    color: #2196f3;
+  }
+  &:focus {
+    color: #2196f3;
+  }
+  &:focus svg {
+    --color2: #2196f3;
+  }
+}
+.phone-icone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: #2196f3;
+  }
+  &:focus {
+    color: #2196f3;
+  }
+  &:focus svg {
+    --color4: #2196f3;
+  }
+}
+.contacts-item {
+  margin-top: 20px;
+}

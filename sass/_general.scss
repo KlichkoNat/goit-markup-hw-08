@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto;
+  color: #212121;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #212121;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+.conteiner {
+  @extend %wihth;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

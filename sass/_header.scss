@@ -1,0 +1,23 @@
+.header {
+  @extend %wihth;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.header-logo {
+  margin-right: 277px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
