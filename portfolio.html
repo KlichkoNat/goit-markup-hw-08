@@ -16,38 +16,49 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-title">
-          <nav class="header">
-            <a class="logos" href="/"> <span class="logo">Web</span> Studio</a>
-            <ul class="social-links">
+    <header class="header">
+      <nav>
+        <a href="/" class="header-logo"> <span class="logo">Web</span> Studio</a>
+        <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container"
+          data-menu-button>
+          <div class="button-icon">
+            <svg width="24" height="24" aria-label="Переключатель мобильного меню">
+              <use class="icon-menu" href="./image/symbol-defs.svg#icon-menu"></use>
+              <use class="icon-cross" href="./image/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </div>
+        </button>
+        <div class="menu-container" id="menu-container" data-menu>
+          <div class="menu">
+            <ul>
               <li class="link-title">
-                <a href="./index.html">Студия</a>
+                <a href="./index.html" class="link-hover">Студия</a>
               </li>
               <li class="link-title">
                 <a href="./portfolio.html" class="link">Портфолио</a>
               </li>
-              <li class="link-title"><a href="">Контакты</a></li>
+              <li class="link-title"><a href="" class="link-hover">Контакты</a></li>
             </ul>
-          </nav>
-          <ul class="contacts">
-            <li class="contacts-item">
-              <div class="contact-mail">
-                <a class="phone" href="maito:info@defstudio.com">
-                  <svg>
-                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
-                  </svg>info@defstudio.com</a></div>
-            </li>
-            <li class="contacts-item">
-              <div class="contact-phone">
-                <a class="phone-icone" href="tel:+380961111111">
-                  <svg class="contact-tel">
-                    <use href="./images/symbol-defs.svg#icon-tel"></use>
-                  </svg>+38 096 111 11 11</a></div>
-            </li>
-          </ul>
-        </div>
+            <ul class="contacts">
+              <li class="contacts-item">
+                <div class="contact-mail">
+                  <a class="phone" href="maito:info@defstudio.com">
+                    <svg>
+                      <use href="./image/symbol-defs.svg#icon-envelope"></use>
+                    </svg>info@defstudio.com</a></div>
+              </li>
+              <li class="contacts-item">
+                <div class="contact-phone">
+                  <a class="phone-icone" href="tel:+380961111111">
+                    <svg>
+                      <use href="./image/symbol-defs.svg#icon-tel"></use>
+                    </svg>+38 096 111 11 11</a></div>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      </div>    
+      </div>
       </div>
     </header>
     <main>
@@ -71,7 +82,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-              <img src="./images/tehnokryak1.jpg" alt="Компьютер с открытой веб-страницей"/>
+              <img src="./image/tehnokryak1.jpg" alt="Компьютер с открытой веб-страницей"/>
             <div class="overlay"><p class="subject-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
               платформу для цифрового
               шпионажа и атак на защищённые сервера конкурентов.</p></div>
@@ -83,7 +94,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/man1.jpg" alt="Баскетболисты борющиеся за мяч" />
+            <img src="./image/basc.jpg" alt="Баскетболисты борющиеся за мяч" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -95,7 +106,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/fish1.jpg" alt="Логотип ресторана Seafood" />
+            <img src="./image/fish1.jpg" alt="Логотип ресторана Seafood" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -107,7 +118,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/hp1.jpg" alt="Наушники" />
+            <img src="./image/hp1.jpg" alt="Наушники" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -119,7 +130,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/box1.jpg" alt="Две коробки на столе" />
+            <img src="./image/box1.jpg" alt="Две коробки на столе" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -131,7 +142,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/comp31.jpg" alt="Компьютер" />
+            <img src="./image/comp31.jpg" alt="Компьютер" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -143,7 +154,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/book1.jpg" alt="Развернутая книга на столе" />
+            <img src="./image/book1.jpg" alt="Развернутая книга на столе" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -155,7 +166,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/lab1.jpg" alt="Бирка с логотипом Лаб" />
+            <img src="./image/lab1.jpg" alt="Бирка с логотипом Лаб" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -167,7 +178,7 @@
         <li class="flex-element">
           <a href="" class="subject-title">
             <div class="picture-subject">
-            <img src="./images/laptop1.jpg" alt="Ноутбук" />
+            <img src="./image/laptop1.jpg" alt="Ноутбук" />
             <div class="overlay">
               <p class="subject-text">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -179,75 +190,65 @@
       </ul>
     </main>
     <footer>
-      <div class="container-footer">
-        <div class="footer">
-          <div class="avatar">
-            <a href="/" class="logos-footer">
-              <span class="logo">Web</span> Studio</a>
-            <address>
-              <ul class="adress">
-                <div class="adress">г. Киев, пр-т Леси Украинки, 26</div>
-                <li class="mobile-title">
-                  <a href="maito:info@defstudio.com" class="mobile">info@defstudio.com</a>
-                </li>
-                <li class="mobile-title">
-                  <a href="tel:+380961111111" class="mobile">+38 096 111 11 11</a>
-                </li>
-              </ul>
-            </address>
+      <div class="footer">
+        <a href="/" class="footer-logo">
+          <span class="logo">Web</span> Studio</a>
+        <address>
+          <ul>
+            <div class="footer-address">
+              г. Киев, пр-т Леси Украинки, 26
+            </div>
+            <li class="footer-contact">
+              <a href="maito:info@defstudio.com">info@defstudio.com</a>
+            </li>
+            <li class="footer-contact">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+        <p>Присоединяйтесь</p>
+        <ul class="footer-socials">
+          <li>
+            <a href="https://www.instagram.com/?hl=ru" class="footer-icon">
+              <svg width="20" height="20">
+                <use href="./image/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" class="footer-icon">
+              <svg width="20" height="20">
+                <use href="./image/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/explore" class="footer-icon">
+              <svg width="20" height="20">
+                <use href="./image/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" class="footer-icon">
+              <svg width="20" height="20">
+                <use href="./image/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p>Подпишитесь на рассылку</p>
+        <form class="footer-form">
+          <div class="footer-input">
+            <label for="">
+              <input type="mail" name="e-mail" placeholder="E-mail"></label>
           </div>
-          <div class="content">
-            <p class="list-items">Присоединяйтесь</p>
-            <ul class="content-title">
-              <li>
-                <a href="https://www.instagram.com/?hl=ru" class="socials-title">
-                  <div class="soc">
-                    <svg class="soc-size">
-                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/" class="socials-title">
-                  <div class="soc">
-                    <svg class="soc-size">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/explore" class="socials-title">
-                  <div class="soc">
-                    <svg class="soc-size">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/" class="socials-title">
-                  <div class="soc">
-                    <svg class="soc-size">
-                      <use href="./images/symbol-defs.svg#icon-linkedln"></use>
-                    </svg>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="server">
-            <p class="list-items">Подпишитесь на рассылку</p>
-            <form class="input-list">
-              <label for="">
-                <input type="mail" name="e-mail" placeholder="E-mail" class="input"></label>
-              <button class="button-footer">
-                Подписаться</button>
-            </form>
-          </div>
-        </div>
+          <button class="footer-button">
+            Подписаться</button>
+        </form>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

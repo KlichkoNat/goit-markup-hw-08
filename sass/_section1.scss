@@ -15,7 +15,6 @@
 }
 .averlay {
   height: 400px;
-  max-width: 100%;
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -33,4 +32,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  @media (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media (max-width: 1139px) {
+    max-width: 768px;
+  }
+  @media (min-width: 1140px) {
+    max-width: 1600px;
+  }
 }
